@@ -589,83 +589,6 @@ def validate_chain():
 
 ---
 
-## 📁 Project Structure
-
-```
-product-authenticity-blockchain/
-│
-├── blockchain/
-│   ├── __init__.py                 # Package initializer
-│   └── blockchain.py               # Core blockchain implementation
-│       ├── MerkleTree class        # Merkle tree implementation
-│       ├── DigitalSignature class  # Signature system
-│       ├── Transaction class       # Transaction object
-│       ├── Block class             # Block structure
-│       └── Blockchain class        # Main blockchain logic
-│
-├── static/
-│   ├── css/
-│   │   └── style.css              # (Optional) Custom styles
-│   └── qr_codes/                  # Generated QR codes
-│       └── <product_id>.png
-│
-├── templates/
-│   ├── index.html                 # Home dashboard
-│   ├── register.html              # Product registration
-│   ├── verify.html                # Verification input
-│   ├── product_details.html       # Verification results
-│   ├── explorer.html              # Blockchain explorer
-│   ├── block_details.html         # Individual block view
-│   └── manufacturers.html         # Manufacturers registry
-│
-├── app.py                         # Flask web application
-├── requirements.txt               # Python dependencies
-├── blockchain_data.json           # Persistent blockchain storage
-└── README.md                      # This file
-```
-
-## 🚀 Future Enhancements
-
-### **Phase 1: Network Features**
-- [ ] Multi-node blockchain network
-- [ ] Peer-to-peer communication
-- [ ] Consensus mechanism (Byzantine Fault Tolerance)
-- [ ] Node synchronization
-
-### **Phase 2: Advanced Cryptography**
-- [ ] RSA or ECC for digital signatures
-- [ ] Zero-knowledge proofs for privacy
-- [ ] Homomorphic encryption
-- [ ] Multi-signature support
-
-### **Phase 3: Smart Contracts**
-- [ ] Custom smart contract language
-- [ ] Automated supply chain workflows
-- [ ] Conditional product transfers
-- [ ] Royalty distribution
-
-### **Phase 4: IoT Integration**
-- [ ] NFC tag support
-- [ ] RFID integration
-- [ ] IoT device authentication
-- [ ] Real-time tracking
-
-### **Phase 5: Mobile App**
-- [ ] iOS/Android QR scanner
-- [ ] Push notifications
-- [ ] Offline verification
-- [ ] Manufacturer dashboard
-
-### **Phase 6: Enterprise Features**
-- [ ] Multi-tenant support
-- [ ] Role-based access control
-- [ ] Batch product registration
-- [ ] Analytics dashboard
-- [ ] API rate limiting
-- [ ] Webhooks
-
----
-
 ## 📊 Performance Metrics
 
 | Metric | Value |
@@ -678,20 +601,6 @@ product-authenticity-blockchain/
 | QR Code Generation | <1 second |
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-
 
 ## 🙏 Acknowledgments
 
